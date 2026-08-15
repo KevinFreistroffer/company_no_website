@@ -2,8 +2,13 @@ import { mergeCsvSources } from "@/lib/csv";
 import { suggestDomains } from "@/lib/domains";
 import { cleanBusinessName, businessSlug } from "@/lib/slug";
 import {
-  categoryLabel,
-  defaultServices,
+  defaultAmenities,
+  defaultOfferings,
+  industryLabel,
+  mergeOfferings,
+} from "@/lib/industry";
+import { completeFoodOfferings } from "@/lib/foodMenu";
+import {
   defaultTagline,
   templateForCategory,
 } from "@/lib/template";
@@ -52,10 +57,11 @@ function defaultHighlights(row: CsvRow): string[] {
 
 export function rowToBusiness(row: CsvRow, enrichment?: Enrichment): Business {
   const name = cleanBusinessName(row.name);
-  const template = templateForCategory(row.category);
-  const label = categoryLabel(row.category, template);
+  const template = templateForCategory(row.category, name);
+  const label = industryLabel(name, row.category, template);
   const slug = businessSlug(row.name, row.city, row.state);
   const phone = row.phone.length > 0 ? row.phone : null;
+  const offerings = defaultOfferings(template, name, row.category, row.city);
   const base: Business = {
     slug,
     name,
@@ -69,7 +75,7 @@ export function rowToBusiness(row: CsvRow, enrichment?: Enrichment): Business {
     mapsUrl: row.mapsUrl,
     tagline: defaultTagline(name, label, row.city, row.state),
     about: defaultAbout(name, row, label),
-    services: defaultServices(template),
+    services: defaultAmenities(template, name, row.category),
     hours: null,
     highlights: defaultHighlights(row),
     sources: row.mapsUrl ? [{ label: "Google Maps listing", url: row.mapsUrl }] : [],
@@ -78,6 +84,7 @@ export function rowToBusiness(row: CsvRow, enrichment?: Enrichment): Business {
     paymentNotes: null,
     established: null,
     notes: row.notes,
+    offerings,
   };
 
   if (!enrichment) {
@@ -95,7 +102,20 @@ export function rowToBusiness(row: CsvRow, enrichment?: Enrichment): Business {
     suggestedDomains: enrichment.suggestedDomains ?? base.suggestedDomains,
     paymentNotes: enrichment.paymentNotes ?? base.paymentNotes,
     established: enrichment.established ?? base.established,
+    offerings: attachOfferings(template, offerings, enrichment?.offerings),
   };
+}
+
+function attachOfferings(
+  template: ReturnType<typeof templateForCategory>,
+  defaults: Business["offerings"],
+  override: Enrichment["offerings"],
+): Business["offerings"] {
+  const merged = mergeOfferings(defaults, override);
+  if (template === "food") {
+    return completeFoodOfferings(merged);
+  }
+  return merged;
 }
 
 export function buildCatalog(

@@ -492,6 +492,162 @@ a {
   background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.35) 55%, transparent 100%);
 }
 
+.offerings-intro {
+  max-width: 40rem;
+  margin-bottom: 28px;
+}
+
+.menu-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px 40px;
+}
+
+.menu-section h3 {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--biz-primary);
+}
+
+.site-root[data-theme="dark"] .menu-section h3 {
+  color: var(--biz-accent);
+}
+
+.menu-section dl {
+  margin: 0;
+}
+
+.menu-item {
+  padding: 12px 0;
+  border-bottom: 1px dotted color-mix(in srgb, var(--biz-fg) 22%, transparent);
+}
+
+.menu-item dt {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: baseline;
+  font-weight: 650;
+}
+
+.menu-price {
+  font-variant-numeric: tabular-nums;
+  color: var(--biz-accent);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.menu-item dd {
+  margin: 4px 0 0;
+  color: var(--biz-muted);
+  font-size: 0.95rem;
+}
+
+.menu-notes {
+  font-style: italic;
+}
+
+.offerings-footnote {
+  margin-top: 28px;
+  max-width: 40rem;
+}
+
+.amenity-chips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.amenity-chips li {
+  border: 1px solid color-mix(in srgb, var(--biz-fg) 14%, transparent);
+  background: color-mix(in srgb, var(--biz-bg) 80%, white);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.92rem;
+}
+
+.site-root[data-template="food"] .hero h1 {
+  text-decoration-thickness: 5px;
+}
+
+.site-root[data-template="food"] .menu-board {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.menu-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.menu-card {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 14px;
+  align-items: stretch;
+  background: color-mix(in srgb, var(--biz-fg) 4%, var(--biz-bg));
+  border: 1px solid color-mix(in srgb, var(--biz-fg) 10%, transparent);
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 132px;
+}
+
+.menu-photo {
+  position: relative;
+  min-height: 132px;
+}
+
+.menu-photo img {
+  object-fit: cover;
+}
+
+.menu-copy {
+  padding: 14px 16px 14px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.menu-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.menu-heading h4 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.menu-copy p {
+  margin: 0;
+  color: var(--biz-muted);
+  font-size: 0.92rem;
+}
+
+.site-root[data-template="auto"] .menu-item dt,
+.site-root[data-template="trade"] .menu-item dt {
+  font-family: var(--font-outfit), system-ui, sans-serif;
+}
+
+.site-root[data-template="thrift"] .menu-section h3 {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 1.35rem;
+}
+
 @media (max-width: 900px) {
   .services ul {
     grid-template-columns: repeat(2, 1fr);
@@ -519,5 +675,9 @@ a {
 
   .services ul {
     grid-template-columns: 1fr;
+  }
+
+  .menu-card {
+    grid-template-columns: 96px 1fr;
   }
 }
