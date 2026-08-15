@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { OfferItem, Offerings } from "@/lib/types";
 
 function MenuItem({ item }: { item: OfferItem }) {
@@ -18,12 +17,7 @@ function MenuItem({ item }: { item: OfferItem }) {
   return (
     <article className="menu-card">
       <div className="menu-photo">
-        <Image
-          src={item.image}
-          alt={item.name}
-          fill
-          sizes="(max-width: 800px) 40vw, 160px"
-        />
+        <img src={item.image} alt={item.name} />
       </div>
       <div className="menu-copy">
         <div className="menu-heading">
