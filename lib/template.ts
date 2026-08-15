@@ -1,6 +1,15 @@
 import type { TemplateId } from "@/lib/types";
 
-export function templateForCategory(category: string): TemplateId {
+function isFoodName(name: string): boolean {
+  const value = name.toLowerCase();
+  return (
+    /donut|doughnut|bakery|baker/.test(value) ||
+    /ice cream|scoops/.test(value) ||
+    /burrito/.test(value)
+  );
+}
+
+export function templateForCategory(category: string, name = ""): TemplateId {
   const value = category.toLowerCase();
   if (value.includes("plumb")) {
     return "trade";
@@ -53,8 +62,13 @@ export function templateForCategory(category: string): TemplateId {
     value.includes("pub") ||
     value.includes("bar") ||
     value.includes("diner") ||
-    value.includes("steak")
+    value.includes("steak") ||
+    value.includes("fast_food") ||
+    value.includes("fast food")
   ) {
+    return "food";
+  }
+  if (isFoodName(name)) {
     return "food";
   }
   return "retail";

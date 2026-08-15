@@ -43,7 +43,29 @@
       "clarkbodyframehannibal.com"
     ],
     "paymentNotes": null,
-    "established": null
+    "established": null,
+    "offerings": {
+      "intro": "Collision, rust, and frame work. Boat and marine repair is listed too — confirm with the shop.",
+      "sections": [
+        {
+          "heading": "Body",
+          "items": [
+            { "name": "Collision repair" },
+            { "name": "Frame repair" },
+            { "name": "Rust removal" },
+            { "name": "Paint" }
+          ]
+        },
+        {
+          "heading": "Also",
+          "items": [
+            { "name": "Towing" },
+            { "name": "Boat and marine repair", "notes": "Listed on directories; confirm before you trailer in." },
+            { "name": "Commercial accounts" }
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "miller-plumbing-hannibal-mo",
@@ -86,7 +108,21 @@
       "millerdrainhannibal.com"
     ],
     "paymentNotes": null,
-    "established": null
+    "established": null,
+    "offerings": {
+      "intro": "Residential plumbing, drains, and septic calls around Hannibal. Some 2026 listings say the shop is quiet — call before you drive out.",
+      "sections": [
+        {
+          "heading": "Common calls",
+          "items": [
+            { "name": "Plumbing repair" },
+            { "name": "Sewer and drain cleaning" },
+            { "name": "Septic service" },
+            { "name": "Residential plumbing" }
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "auto-beauty-shop-selma-al",
@@ -1132,7 +1168,29 @@
       "casablancanewmexican.com"
     ],
     "paymentNotes": "Cash only; plan to bring cash.",
-    "established": "1975"
+    "established": "1975",
+    "offerings": {
+      "title": "New Mexican menu",
+      "intro": "Mascarenaz family recipes since 1975 — red and green chile, lunch, dinner, and margaritas. Cash only.",
+      "sections": [
+        {
+          "heading": "Kitchen",
+          "items": [
+            { "name": "Red chile plates" },
+            { "name": "Green chile plates", "notes": "Herald Democrat noted Best Green Chili accolades." },
+            { "name": "House salsas" },
+            { "name": "Children’s menu" }
+          ]
+        },
+        {
+          "heading": "Bar & extras",
+          "items": [
+            { "name": "Margaritas" },
+            { "name": "Takeout" }
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "sea-j-s-cafe-port-townsend-wa",
@@ -1175,7 +1233,37 @@
       "seajsporttownsend.com"
     ],
     "paymentNotes": "Cash or Venmo only; credit cards not accepted.",
-    "established": null
+    "established": null,
+    "offerings": {
+      "title": "Menu",
+      "intro": "Fried cod, burgers, breakfast, and milkshakes at the boatyard counter. Cash or Venmo.",
+      "sections": [
+        {
+          "heading": "From the fryer",
+          "items": [
+            {
+              "name": "Fish and chips",
+              "description": "Fried cod, the house order.",
+              "notes": "Seattle Magazine called this the one to get."
+            },
+            {
+              "name": "Fish sandwich"
+            },
+            {
+              "name": "Seafood basket"
+            }
+          ]
+        },
+        {
+          "heading": "Also",
+          "items": [
+            { "name": "Burger" },
+            { "name": "Breakfast" },
+            { "name": "Milkshake" }
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "jim-s-barber-shop-port-townsend-wa",
@@ -1546,7 +1634,27 @@
       "abysstattooart.com"
     ],
     "paymentNotes": null,
-    "established": "2009"
+    "established": "2009",
+    "offerings": {
+      "intro": "Artist-owned studio and gallery. Named artists include JD Davis, Stella Ipswitch, and Joseph Linker.",
+      "sections": [
+        {
+          "heading": "Tattoos",
+          "items": [
+            { "name": "Custom tattoos" },
+            { "name": "Traditional and neo-traditional" },
+            { "name": "Blackwork" }
+          ]
+        },
+        {
+          "heading": "Also",
+          "items": [
+            { "name": "Art gallery" },
+            { "name": "Consultations" }
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "missy-s-white-rabbit-lounge-eureka-springs-ar",
@@ -1873,7 +1981,29 @@
       "dollys-laundry-gettysburg.com"
     ],
     "paymentNotes": "Coin-operated; Yelp comments mention a change machine. Card policy not corroborated.",
-    "established": null
+    "established": null,
+    "offerings": {
+      "title": "Machines",
+      "intro": "Self-service washers and dryers, including industrial sizes, plus a change machine.",
+      "sections": [
+        {
+          "heading": "Wash & dry",
+          "items": [
+            { "name": "Standard washer" },
+            { "name": "Industrial-size washer" },
+            { "name": "Dryer" }
+          ]
+        },
+        {
+          "heading": "On site",
+          "items": [
+            { "name": "Change machine" },
+            { "name": "TVs" },
+            { "name": "Folding tables" }
+          ]
+        }
+      ]
+    }
   },
   {
     "slug": "locke-studios-tattoo-and-piercing-gettysburg-pa",

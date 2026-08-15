@@ -44,6 +44,31 @@ export type Theme = {
   font: "serif" | "sans" | "display";
 };
 
+export type OfferItem = {
+  name: string;
+  description?: string;
+  price?: string;
+  notes?: string;
+};
+
+export type OfferSection = {
+  heading: string;
+  items: OfferItem[];
+};
+
+export type Offerings = {
+  navLabel: string;
+  sectionId: string;
+  title: string;
+  intro: string;
+  sections: OfferSection[];
+  footnote: string;
+};
+
+export type OfferingsOverride = Partial<Omit<Offerings, "sections">> & {
+  sections?: OfferSection[];
+};
+
 export type Business = {
   slug: string;
   name: string;
@@ -66,6 +91,7 @@ export type Business = {
   paymentNotes: string | null;
   established: string | null;
   notes: string;
+  offerings: Offerings;
 };
 
 export type CsvRow = {
@@ -91,4 +117,5 @@ export type Enrichment = {
   suggestedDomains?: string[];
   paymentNotes?: string | null;
   established?: string | null;
+  offerings?: OfferingsOverride;
 };

@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import { DemoBanner } from "@/components/DemoBanner";
+import { OfferingsSection } from "@/components/Offerings";
 import {
   customerAbout,
   defaultCustomerAbout,
@@ -8,6 +9,7 @@ import {
 } from "@/lib/copy";
 import { formatPhone, telHref } from "@/lib/domains";
 import { dayLabel, formatDayHours, orderedHours } from "@/lib/hours";
+import { industryChrome } from "@/lib/industry";
 import type { Business } from "@/lib/types";
 
 function CallLink({ business, className }: { business: Business; className?: string }) {
@@ -31,12 +33,14 @@ function fullAddress(business: Business): string {
 export function BusinessSite({ business }: { business: Business }) {
   const hours = business.hours ? orderedHours(business.hours) : null;
   const dark = business.template === "studio";
+  const chrome = industryChrome(business.template, business.name, business.category);
   const about = customerAbout(
     business.about,
     defaultCustomerAbout(business),
   );
   const { story, confirm } = splitHighlights(business.highlights);
   const embedUrl = mapsEmbedUrl(business);
+  const menuHref = `#${business.offerings.sectionId}`;
 
   return (
     <div
@@ -61,8 +65,8 @@ export function BusinessSite({ business }: { business: Business }) {
           <span className="site-mark">{business.name}</span>
           <nav>
             <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#visit">Visit</a>
+            <a href={menuHref}>{business.offerings.navLabel}</a>
+            <a href="#visit">{chrome.visitTitle}</a>
             <CallLink business={business} className="nav-call" />
           </nav>
         </div>
@@ -80,7 +84,10 @@ export function BusinessSite({ business }: { business: Business }) {
           <h1>{business.name}</h1>
           <p className="tagline">{business.tagline}</p>
           <div className="hero-actions">
-            <CallLink business={business} className="btn-primary" />
+            <a className="btn-primary" href={menuHref}>
+              {chrome.heroCta}
+            </a>
+            <CallLink business={business} className="btn-secondary" />
             <a className="btn-secondary" href={business.mapsUrl} target="_blank" rel="noreferrer">
               Get directions
             </a>
@@ -102,30 +109,30 @@ export function BusinessSite({ business }: { business: Business }) {
           </div>
           {story.length > 0 ? (
             <ul className="highlights">
-              {story.map((item) => (
-                <li key={item}>{item}</li>
+              {story.map((entry) => (
+                <li key={entry}>{entry}</li>
               ))}
             </ul>
           ) : null}
         </section>
 
-        <section id="services" className="panel services">
-          <h2>Services</h2>
-          <ul>
-            {business.services.map((service, index) => (
-              <li key={service}>
-                <span className="service-index">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-                <strong>{service}</strong>
-              </li>
-            ))}
-          </ul>
-        </section>
+        <OfferingsSection offerings={business.offerings} />
+
+        {business.services.length > 0 ? (
+          <section className="panel amenities">
+            <h2>{chrome.amenitiesTitle}</h2>
+            <ul className="amenity-chips">
+              {business.services.map((service) => (
+                <li key={service}>{service}</li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         <section id="visit" className="panel visit">
           <div className="visit-card">
-            <h2>Visit</h2>
+            <h2>{chrome.visitTitle}</h2>
+            <p>{chrome.visitBlurb}</p>
             <p className="address">{fullAddress(business)}</p>
             <div className="visit-actions">
               <CallLink business={business} className="btn-primary" />
@@ -167,8 +174,8 @@ export function BusinessSite({ business }: { business: Business }) {
               Public listings disagree on a few points. Worth checking by phone:
             </p>
             <ul>
-              {confirm.map((item) => (
-                <li key={item}>{item}</li>
+              {confirm.map((entry) => (
+                <li key={entry}>{entry}</li>
               ))}
             </ul>
           </aside>
@@ -177,7 +184,9 @@ export function BusinessSite({ business }: { business: Business }) {
         <section className="panel domain">
           <h2>A website of your own</h2>
           <p>
-            This is a sample of what {business.name} could share online.
+            This is a sample of what {business.name} could share online — including
+            a {business.offerings.navLabel.toLowerCase()} you can rewrite with your
+            own wording.
             Recommended domains:
           </p>
           <ul className="domain-list">
