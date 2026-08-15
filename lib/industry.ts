@@ -5,6 +5,7 @@ import type {
   OfferingsOverride,
   TemplateId,
 } from "@/lib/types";
+import { completeFoodOfferings } from "@/lib/foodMenu";
 
 export type FoodKind =
   | "bakery"
@@ -1103,7 +1104,7 @@ export function defaultOfferings(
 ): Offerings {
   switch (template) {
     case "food":
-      return foodOfferings(name, category, city);
+      return completeFoodOfferings(foodOfferings(name, category, city));
     case "salon":
       return salonOfferings(name, category);
     case "auto":

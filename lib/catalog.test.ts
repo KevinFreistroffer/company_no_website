@@ -80,6 +80,9 @@ describe("catalog ingest", () => {
     expect(seaJs?.offerings.navLabel).toBe("Menu");
     expect(seaJs?.offerings.sections[0]?.items[0]?.name).toBe("Fish and chips");
     expect(seaJs?.offerings.sections[0]?.items[0]?.notes).toContain("Owner");
+    expect(seaJs?.offerings.sections[0]?.items[0]?.price).toBeTruthy();
+    expect(seaJs?.offerings.sections[0]?.items[0]?.image).toContain("unsplash");
+    expect(seaJs?.offerings.sections[0]?.items[0]?.description).toBeTruthy();
   });
 
   it("applies every enrichment key to a real slug", () => {
@@ -98,6 +101,13 @@ describe("catalog ingest", () => {
       expect(business.about.length).toBeGreaterThan(40);
       expect(business.offerings.sections.length).toBeGreaterThan(0);
       expect(business.offerings.sections[0]?.items.length).toBeGreaterThan(0);
+      if (business.template === "food") {
+        for (const item of business.offerings.sections.flatMap((section) => section.items)) {
+          expect(item.description?.length).toBeGreaterThan(8);
+          expect(item.price?.length).toBeGreaterThan(0);
+          expect(item.image).toMatch(/^https:\/\//);
+        }
+      }
     }
   });
 });

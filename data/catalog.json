@@ -430,13 +430,21 @@
           "items": [
             {
               "name": "Chips and salsa",
-              "description": "Red, green, or both."
+              "description": "Red, green, or both.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Guacamole"
+              "name": "Guacamole",
+              "description": "Ripe avocado, lime, and onion. Made to order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Queso"
+              "name": "Queso",
+              "description": "Warm cheese dip for the chips.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -444,19 +452,34 @@
           "heading": "Plates",
           "items": [
             {
-              "name": "Tacos"
+              "name": "Tacos",
+              "description": "Street-style, two or three to an order.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Enchiladas"
+              "name": "Enchiladas",
+              "description": "Rolled tortillas, chile sauce, and cheese.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burrito plate"
+              "name": "Burrito plate",
+              "description": "A burrito plated with rice and beans.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chile relleno"
+              "name": "Chile relleno",
+              "description": "Roasted pepper, cheese, and ranchero sauce.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Combination plate"
+              "name": "Combination plate",
+              "description": "A mix of house plates — tacos, enchilada, rice, and beans.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -464,17 +487,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Horchata"
+              "name": "Horchata",
+              "description": "Cinnamon rice drink, served cold.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Agua fresca"
+              "name": "Agua fresca",
+              "description": "Fruit water of the day.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Mexican coke"
+              "name": "Mexican coke",
+              "description": "Bottle, cane sugar.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Margarita",
-              "description": "When the bar is open."
+              "description": "When the bar is open.",
+              "price": "$9",
+              "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -539,13 +573,21 @@
           "items": [
             {
               "name": "Chips and salsa",
-              "description": "Red, green, or both."
+              "description": "Red, green, or both.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Guacamole"
+              "name": "Guacamole",
+              "description": "Ripe avocado, lime, and onion. Made to order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Queso"
+              "name": "Queso",
+              "description": "Warm cheese dip for the chips.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -553,19 +595,34 @@
           "heading": "Plates",
           "items": [
             {
-              "name": "Tacos"
+              "name": "Tacos",
+              "description": "Street-style, two or three to an order.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Enchiladas"
+              "name": "Enchiladas",
+              "description": "Rolled tortillas, chile sauce, and cheese.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burrito plate"
+              "name": "Burrito plate",
+              "description": "A burrito plated with rice and beans.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chile relleno"
+              "name": "Chile relleno",
+              "description": "Roasted pepper, cheese, and ranchero sauce.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Combination plate"
+              "name": "Combination plate",
+              "description": "A mix of house plates — tacos, enchilada, rice, and beans.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -573,17 +630,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Horchata"
+              "name": "Horchata",
+              "description": "Cinnamon rice drink, served cold.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Agua fresca"
+              "name": "Agua fresca",
+              "description": "Fruit water of the day.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Mexican coke"
+              "name": "Mexican coke",
+              "description": "Bottle, cane sugar.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Margarita",
-              "description": "When the bar is open."
+              "description": "When the bar is open.",
+              "price": "$9",
+              "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -901,16 +969,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Drip coffee"
+              "name": "Drip coffee",
+              "description": "House brew, served all day.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Espresso"
+              "name": "Espresso",
+              "description": "A double shot.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Latte or cappuccino"
+              "name": "Latte or cappuccino",
+              "description": "Espresso with steamed milk.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Tea"
+              "name": "Tea",
+              "description": "Hot tea, black or herbal.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -918,17 +998,28 @@
           "heading": "Kitchen",
           "items": [
             {
-              "name": "Breakfast sandwich"
+              "name": "Breakfast sandwich",
+              "description": "Egg, cheese, and the day’s meat on a roll.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Pastry"
+              "name": "Pastry",
+              "description": "Whatever came out of the case this morning.",
+              "price": "$4",
+              "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Soup or salad",
-              "description": "When posted."
+              "description": "When posted.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1547592166-23acba8dcd80?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Lunch plate"
+              "name": "Lunch plate",
+              "description": "The midday plate — sandwich or leftover special.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -994,18 +1085,27 @@
           "items": [
             {
               "name": "Glazed",
-              "description": "The everyday dozen."
+              "description": "The everyday dozen.",
+              "price": "$2.25",
+              "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chocolate iced"
+              "name": "Chocolate iced",
+              "description": "Cake donut finished with chocolate icing.",
+              "price": "$2.50",
+              "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Filled",
-              "description": "Cream or fruit, when posted."
+              "description": "Cream or fruit, when posted.",
+              "price": "$2.75",
+              "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Dozen box",
-              "description": "Mix and match."
+              "description": "Mix and match.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -1013,14 +1113,22 @@
           "heading": "Also on the counter",
           "items": [
             {
-              "name": "Drip coffee"
+              "name": "Drip coffee",
+              "description": "House brew, served all day.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Breakfast sandwich"
+              "name": "Breakfast sandwich",
+              "description": "Egg, cheese, and the day’s meat on a roll.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Kolache or savory bake",
-              "description": "When the kitchen runs it."
+              "description": "When the kitchen runs it.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -1579,17 +1687,27 @@
           "items": [
             {
               "name": "Burrito",
-              "description": "Rice, beans, salsa, and the day’s protein."
+              "description": "Rice, beans, salsa, and the day’s protein.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Tacos",
-              "description": "Street-style, two or three to an order."
+              "description": "Street-style, two or three to an order.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Quesadilla"
+              "name": "Quesadilla",
+              "description": "Griddled tortilla, melted cheese, salsa on the side.",
+              "price": "$10",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Nachos"
+              "name": "Nachos",
+              "description": "Chips piled with cheese, salsa, and jalapeños.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -1597,13 +1715,22 @@
           "heading": "Extras",
           "items": [
             {
-              "name": "Chips and salsa"
+              "name": "Chips and salsa",
+              "description": "Warm chips with red, green, or both.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Guacamole"
+              "name": "Guacamole",
+              "description": "Ripe avocado, lime, and onion. Made to order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Agua fresca or soda"
+              "name": "Agua fresca or soda",
+              "description": "Fruit water or a cold soda.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -2419,13 +2546,22 @@
           "heading": "Starters",
           "items": [
             {
-              "name": "Soup of the day"
+              "name": "Soup of the day",
+              "description": "A cup of whatever went on the stove this morning.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1547592166-23acba8dcd80?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House salad"
+              "name": "House salad",
+              "description": "Greens, house dressing, seasonal garnish.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Appetizer plate"
+              "name": "Appetizer plate",
+              "description": "A shareable starter for the table.",
+              "price": "$10",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -2433,17 +2569,28 @@
           "heading": "Mains",
           "items": [
             {
-              "name": "House special"
+              "name": "House special",
+              "description": "The plate this kitchen is known for.",
+              "price": "$18",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chicken plate"
+              "name": "Chicken plate",
+              "description": "Roasted or fried chicken with two sides.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or sandwich"
+              "name": "Burger or sandwich",
+              "description": "Burger or deli sandwich, fries on the side.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Catch or steak",
-              "description": "When the kitchen runs it."
+              "description": "When the kitchen runs it.",
+              "price": "$24",
+              "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -2451,13 +2598,22 @@
           "heading": "Sweets & drinks",
           "items": [
             {
-              "name": "Dessert"
+              "name": "Dessert",
+              "description": "A slice of cake or pie to finish.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Iced tea and soda"
+              "name": "Iced tea and soda",
+              "description": "Bottomless iced tea or a soda.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Coffee"
+              "name": "Coffee",
+              "description": "A mug of coffee.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -2573,17 +2729,29 @@
           "heading": "Kitchen",
           "items": [
             {
-              "name": "Red chile plates"
+              "name": "Red chile plates",
+              "description": "House red chile over the plate of the day.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Green chile plates",
-              "notes": "Herald Democrat noted Best Green Chili accolades."
+              "notes": "Herald Democrat noted Best Green Chili accolades.",
+              "description": "House green chile, the one locals argue about.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House salsas"
+              "name": "House salsas",
+              "description": "Red and green salsa with chips.",
+              "price": "$4",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Children’s menu"
+              "name": "Children’s menu",
+              "description": "Smaller plates for kids.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -2591,10 +2759,16 @@
           "heading": "Bar & extras",
           "items": [
             {
-              "name": "Margaritas"
+              "name": "Margaritas",
+              "description": "House margarita, frozen or on the rocks.",
+              "price": "$9",
+              "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Takeout"
+              "name": "Takeout",
+              "description": "Same menu, packed to go.",
+              "price": "—",
+              "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -2839,16 +3013,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Drip coffee"
+              "name": "Drip coffee",
+              "description": "House brew, served all day.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Espresso"
+              "name": "Espresso",
+              "description": "A double shot.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Latte or cappuccino"
+              "name": "Latte or cappuccino",
+              "description": "Espresso with steamed milk.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Tea"
+              "name": "Tea",
+              "description": "Hot tea, black or herbal.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -2856,17 +3042,28 @@
           "heading": "Kitchen",
           "items": [
             {
-              "name": "Breakfast sandwich"
+              "name": "Breakfast sandwich",
+              "description": "Egg, cheese, and the day’s meat on a roll.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Pastry"
+              "name": "Pastry",
+              "description": "Whatever came out of the case this morning.",
+              "price": "$4",
+              "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Soup or salad",
-              "description": "When posted."
+              "description": "When posted.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1547592166-23acba8dcd80?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Lunch plate"
+              "name": "Lunch plate",
+              "description": "The midday plate — sandwich or leftover special.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -3551,16 +3748,27 @@
           "items": [
             {
               "name": "Two-egg plate",
-              "description": "Hash browns and toast."
+              "description": "Hash browns and toast.",
+              "price": "$10",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Pancakes or French toast"
+              "name": "Pancakes or French toast",
+              "description": "A short stack or griddled bread, syrup on the side.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1528207776546-56976ade8906?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Omelet"
+              "name": "Omelet",
+              "description": "Three-egg omelet with the fillings you name.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Breakfast sandwich"
+              "name": "Breakfast sandwich",
+              "description": "Egg, cheese, and the day’s meat on a roll.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -3568,16 +3776,28 @@
           "heading": "Lunch & supper",
           "items": [
             {
-              "name": "Burger"
+              "name": "Burger",
+              "description": "Griddled beef patty, bun, and the usual toppings.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Club sandwich"
+              "name": "Club sandwich",
+              "description": "Triple-decker with turkey, bacon, and tomato.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1528735609831-bfc7a412b3e3?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Daily special"
+              "name": "Daily special",
+              "description": "Ask what the kitchen wrote on the board.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Pie and coffee"
+              "name": "Pie and coffee",
+              "description": "A slice of pie and a cup of coffee.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -3843,13 +4063,22 @@
           "heading": "Starters",
           "items": [
             {
-              "name": "Soup of the day"
+              "name": "Soup of the day",
+              "description": "A cup of whatever went on the stove this morning.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1547592166-23acba8dcd80?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House salad"
+              "name": "House salad",
+              "description": "Greens, house dressing, seasonal garnish.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Appetizer plate"
+              "name": "Appetizer plate",
+              "description": "A shareable starter for the table.",
+              "price": "$10",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -3857,17 +4086,28 @@
           "heading": "Mains",
           "items": [
             {
-              "name": "House special"
+              "name": "House special",
+              "description": "The plate this kitchen is known for.",
+              "price": "$18",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chicken plate"
+              "name": "Chicken plate",
+              "description": "Roasted or fried chicken with two sides.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or sandwich"
+              "name": "Burger or sandwich",
+              "description": "Burger or deli sandwich, fries on the side.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Catch or steak",
-              "description": "When the kitchen runs it."
+              "description": "When the kitchen runs it.",
+              "price": "$24",
+              "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -3875,13 +4115,22 @@
           "heading": "Sweets & drinks",
           "items": [
             {
-              "name": "Dessert"
+              "name": "Dessert",
+              "description": "A slice of cake or pie to finish.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Iced tea and soda"
+              "name": "Iced tea and soda",
+              "description": "Bottomless iced tea or a soda.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Coffee"
+              "name": "Coffee",
+              "description": "A mug of coffee.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -4498,13 +4747,21 @@
           "items": [
             {
               "name": "Chips and salsa",
-              "description": "Red, green, or both."
+              "description": "Red, green, or both.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Guacamole"
+              "name": "Guacamole",
+              "description": "Ripe avocado, lime, and onion. Made to order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Queso"
+              "name": "Queso",
+              "description": "Warm cheese dip for the chips.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -4512,19 +4769,34 @@
           "heading": "Plates",
           "items": [
             {
-              "name": "Tacos"
+              "name": "Tacos",
+              "description": "Street-style, two or three to an order.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Enchiladas"
+              "name": "Enchiladas",
+              "description": "Rolled tortillas, chile sauce, and cheese.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burrito plate"
+              "name": "Burrito plate",
+              "description": "A burrito plated with rice and beans.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chile relleno"
+              "name": "Chile relleno",
+              "description": "Roasted pepper, cheese, and ranchero sauce.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Combination plate"
+              "name": "Combination plate",
+              "description": "A mix of house plates — tacos, enchilada, rice, and beans.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -4532,17 +4804,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Horchata"
+              "name": "Horchata",
+              "description": "Cinnamon rice drink, served cold.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Agua fresca"
+              "name": "Agua fresca",
+              "description": "Fruit water of the day.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Mexican coke"
+              "name": "Mexican coke",
+              "description": "Bottle, cane sugar.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Margarita",
-              "description": "When the bar is open."
+              "description": "When the bar is open.",
+              "price": "$9",
+              "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -4755,16 +5038,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Drip coffee"
+              "name": "Drip coffee",
+              "description": "House brew, served all day.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Espresso"
+              "name": "Espresso",
+              "description": "A double shot.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Latte or cappuccino"
+              "name": "Latte or cappuccino",
+              "description": "Espresso with steamed milk.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Tea"
+              "name": "Tea",
+              "description": "Hot tea, black or herbal.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -4772,17 +5067,28 @@
           "heading": "Kitchen",
           "items": [
             {
-              "name": "Breakfast sandwich"
+              "name": "Breakfast sandwich",
+              "description": "Egg, cheese, and the day’s meat on a roll.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Pastry"
+              "name": "Pastry",
+              "description": "Whatever came out of the case this morning.",
+              "price": "$4",
+              "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Soup or salad",
-              "description": "When posted."
+              "description": "When posted.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1547592166-23acba8dcd80?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Lunch plate"
+              "name": "Lunch plate",
+              "description": "The midday plate — sandwich or leftover special.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -5406,17 +5712,28 @@
           "heading": "From the grill",
           "items": [
             {
-              "name": "Ribeye"
+              "name": "Ribeye",
+              "description": "Grilled ribeye, cooked how you like it.",
+              "price": "$36",
+              "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Sirloin"
+              "name": "Sirloin",
+              "description": "Center-cut sirloin with house butter.",
+              "price": "$28",
+              "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Filet"
+              "name": "Filet",
+              "description": "Tender filet, smaller cut, bigger price.",
+              "price": "$42",
+              "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Chop or chicken",
-              "description": "When posted."
+              "description": "When posted.",
+              "price": "$24",
+              "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -5424,16 +5741,28 @@
           "heading": "Around the steak",
           "items": [
             {
-              "name": "House salad"
+              "name": "House salad",
+              "description": "Greens, house dressing, seasonal garnish.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Baked potato"
+              "name": "Baked potato",
+              "description": "Loaded or plain, with the steak.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1518977676601-b2690ace2b1b?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Seasonal vegetable"
+              "name": "Seasonal vegetable",
+              "description": "Whatever is on the line tonight.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Onion rings or fries"
+              "name": "Onion rings or fries",
+              "description": "Crisp rings or a pile of fries.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -6492,16 +6821,28 @@
           "heading": "Starters",
           "items": [
             {
-              "name": "Miso soup"
+              "name": "Miso soup",
+              "description": "Hot miso with tofu and scallion.",
+              "price": "$4",
+              "image": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Gyoza"
+              "name": "Gyoza",
+              "description": "Pan-fried dumplings, six to an order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Edamame"
+              "name": "Edamame",
+              "description": "Salted pods, for the table.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1553621042-f6e14724581e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House salad"
+              "name": "House salad",
+              "description": "Greens, house dressing, seasonal garnish.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -6509,16 +6850,28 @@
           "heading": "Hibachi dinners",
           "items": [
             {
-              "name": "Chicken hibachi"
+              "name": "Chicken hibachi",
+              "description": "Teppanyaki chicken, fried rice, and vegetables.",
+              "price": "$18",
+              "image": "https://images.unsplash.com/photo-1553621042-f6e14724581e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Steak hibachi"
+              "name": "Steak hibachi",
+              "description": "Teppanyaki steak, fried rice, and vegetables.",
+              "price": "$24",
+              "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Shrimp hibachi"
+              "name": "Shrimp hibachi",
+              "description": "Teppanyaki shrimp, fried rice, and vegetables.",
+              "price": "$22",
+              "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Combination hibachi"
+              "name": "Combination hibachi",
+              "description": "Pick two proteins from the hibachi list.",
+              "price": "$26",
+              "image": "https://images.unsplash.com/photo-1553621042-f6e14724581e?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -7319,13 +7672,21 @@
           "items": [
             {
               "name": "Chips and salsa",
-              "description": "Red, green, or both."
+              "description": "Red, green, or both.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Guacamole"
+              "name": "Guacamole",
+              "description": "Ripe avocado, lime, and onion. Made to order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Queso"
+              "name": "Queso",
+              "description": "Warm cheese dip for the chips.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -7333,19 +7694,34 @@
           "heading": "Plates",
           "items": [
             {
-              "name": "Tacos"
+              "name": "Tacos",
+              "description": "Street-style, two or three to an order.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Enchiladas"
+              "name": "Enchiladas",
+              "description": "Rolled tortillas, chile sauce, and cheese.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burrito plate"
+              "name": "Burrito plate",
+              "description": "A burrito plated with rice and beans.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chile relleno"
+              "name": "Chile relleno",
+              "description": "Roasted pepper, cheese, and ranchero sauce.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Combination plate"
+              "name": "Combination plate",
+              "description": "A mix of house plates — tacos, enchilada, rice, and beans.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -7353,17 +7729,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Horchata"
+              "name": "Horchata",
+              "description": "Cinnamon rice drink, served cold.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Agua fresca"
+              "name": "Agua fresca",
+              "description": "Fruit water of the day.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Mexican coke"
+              "name": "Mexican coke",
+              "description": "Bottle, cane sugar.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Margarita",
-              "description": "When the bar is open."
+              "description": "When the bar is open.",
+              "price": "$9",
+              "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -7428,13 +7815,21 @@
           "items": [
             {
               "name": "Chips and salsa",
-              "description": "Red, green, or both."
+              "description": "Red, green, or both.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Guacamole"
+              "name": "Guacamole",
+              "description": "Ripe avocado, lime, and onion. Made to order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Queso"
+              "name": "Queso",
+              "description": "Warm cheese dip for the chips.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -7442,19 +7837,34 @@
           "heading": "Plates",
           "items": [
             {
-              "name": "Tacos"
+              "name": "Tacos",
+              "description": "Street-style, two or three to an order.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Enchiladas"
+              "name": "Enchiladas",
+              "description": "Rolled tortillas, chile sauce, and cheese.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burrito plate"
+              "name": "Burrito plate",
+              "description": "A burrito plated with rice and beans.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chile relleno"
+              "name": "Chile relleno",
+              "description": "Roasted pepper, cheese, and ranchero sauce.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Combination plate"
+              "name": "Combination plate",
+              "description": "A mix of house plates — tacos, enchilada, rice, and beans.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -7462,17 +7872,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Horchata"
+              "name": "Horchata",
+              "description": "Cinnamon rice drink, served cold.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Agua fresca"
+              "name": "Agua fresca",
+              "description": "Fruit water of the day.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Mexican coke"
+              "name": "Mexican coke",
+              "description": "Bottle, cane sugar.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Margarita",
-              "description": "When the bar is open."
+              "description": "When the bar is open.",
+              "price": "$9",
+              "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -7965,13 +8386,22 @@
           "heading": "Starters",
           "items": [
             {
-              "name": "Soup of the day"
+              "name": "Soup of the day",
+              "description": "A cup of whatever went on the stove this morning.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1547592166-23acba8dcd80?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House salad"
+              "name": "House salad",
+              "description": "Greens, house dressing, seasonal garnish.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Appetizer plate"
+              "name": "Appetizer plate",
+              "description": "A shareable starter for the table.",
+              "price": "$10",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -7979,17 +8409,28 @@
           "heading": "Mains",
           "items": [
             {
-              "name": "House special"
+              "name": "House special",
+              "description": "The plate this kitchen is known for.",
+              "price": "$18",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chicken plate"
+              "name": "Chicken plate",
+              "description": "Roasted or fried chicken with two sides.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or sandwich"
+              "name": "Burger or sandwich",
+              "description": "Burger or deli sandwich, fries on the side.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Catch or steak",
-              "description": "When the kitchen runs it."
+              "description": "When the kitchen runs it.",
+              "price": "$24",
+              "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -7997,13 +8438,22 @@
           "heading": "Sweets & drinks",
           "items": [
             {
-              "name": "Dessert"
+              "name": "Dessert",
+              "description": "A slice of cake or pie to finish.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Iced tea and soda"
+              "name": "Iced tea and soda",
+              "description": "Bottomless iced tea or a soda.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Coffee"
+              "name": "Coffee",
+              "description": "A mug of coffee.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -8202,16 +8652,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Local draft"
+              "name": "Local draft",
+              "description": "A pint from a nearby tap.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Domestic bottle"
+              "name": "Domestic bottle",
+              "description": "Cold bottle from the well-known list.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Well cocktail"
+              "name": "Well cocktail",
+              "description": "A standard mixed drink from the well.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House pour"
+              "name": "House pour",
+              "description": "Whiskey or well spirit, neat or on ice.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -8219,14 +8681,22 @@
           "heading": "Kitchen & extras",
           "items": [
             {
-              "name": "Wings or nachos"
+              "name": "Wings or nachos",
+              "description": "A basket of wings or nachos for the table.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or basket"
+              "name": "Burger or basket",
+              "description": "Burger or fried basket, depending on the kitchen.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Pool, darts, or live music",
-              "description": "When the room is running it."
+              "description": "When the room is running it.",
+              "price": "—",
+              "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -8290,13 +8760,22 @@
           "heading": "Starters",
           "items": [
             {
-              "name": "Soup of the day"
+              "name": "Soup of the day",
+              "description": "A cup of whatever went on the stove this morning.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1547592166-23acba8dcd80?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House salad"
+              "name": "House salad",
+              "description": "Greens, house dressing, seasonal garnish.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Appetizer plate"
+              "name": "Appetizer plate",
+              "description": "A shareable starter for the table.",
+              "price": "$10",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -8304,17 +8783,28 @@
           "heading": "Mains",
           "items": [
             {
-              "name": "House special"
+              "name": "House special",
+              "description": "The plate this kitchen is known for.",
+              "price": "$18",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chicken plate"
+              "name": "Chicken plate",
+              "description": "Roasted or fried chicken with two sides.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or sandwich"
+              "name": "Burger or sandwich",
+              "description": "Burger or deli sandwich, fries on the side.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Catch or steak",
-              "description": "When the kitchen runs it."
+              "description": "When the kitchen runs it.",
+              "price": "$24",
+              "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -8322,13 +8812,22 @@
           "heading": "Sweets & drinks",
           "items": [
             {
-              "name": "Dessert"
+              "name": "Dessert",
+              "description": "A slice of cake or pie to finish.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Iced tea and soda"
+              "name": "Iced tea and soda",
+              "description": "Bottomless iced tea or a soda.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Coffee"
+              "name": "Coffee",
+              "description": "A mug of coffee.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -8615,17 +9114,28 @@
           "heading": "From the grill",
           "items": [
             {
-              "name": "Ribeye"
+              "name": "Ribeye",
+              "description": "Grilled ribeye, cooked how you like it.",
+              "price": "$36",
+              "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Sirloin"
+              "name": "Sirloin",
+              "description": "Center-cut sirloin with house butter.",
+              "price": "$28",
+              "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Filet"
+              "name": "Filet",
+              "description": "Tender filet, smaller cut, bigger price.",
+              "price": "$42",
+              "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Chop or chicken",
-              "description": "When posted."
+              "description": "When posted.",
+              "price": "$24",
+              "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -8633,16 +9143,28 @@
           "heading": "Around the steak",
           "items": [
             {
-              "name": "House salad"
+              "name": "House salad",
+              "description": "Greens, house dressing, seasonal garnish.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Baked potato"
+              "name": "Baked potato",
+              "description": "Loaded or plain, with the steak.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1518977676601-b2690ace2b1b?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Seasonal vegetable"
+              "name": "Seasonal vegetable",
+              "description": "Whatever is on the line tonight.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Onion rings or fries"
+              "name": "Onion rings or fries",
+              "description": "Crisp rings or a pile of fries.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -8720,13 +9242,21 @@
           "items": [
             {
               "name": "Chips and salsa",
-              "description": "Red, green, or both."
+              "description": "Red, green, or both.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Guacamole"
+              "name": "Guacamole",
+              "description": "Ripe avocado, lime, and onion. Made to order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Queso"
+              "name": "Queso",
+              "description": "Warm cheese dip for the chips.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -8734,19 +9264,34 @@
           "heading": "Plates",
           "items": [
             {
-              "name": "Tacos"
+              "name": "Tacos",
+              "description": "Street-style, two or three to an order.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Enchiladas"
+              "name": "Enchiladas",
+              "description": "Rolled tortillas, chile sauce, and cheese.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burrito plate"
+              "name": "Burrito plate",
+              "description": "A burrito plated with rice and beans.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chile relleno"
+              "name": "Chile relleno",
+              "description": "Roasted pepper, cheese, and ranchero sauce.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Combination plate"
+              "name": "Combination plate",
+              "description": "A mix of house plates — tacos, enchilada, rice, and beans.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -8754,17 +9299,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Horchata"
+              "name": "Horchata",
+              "description": "Cinnamon rice drink, served cold.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Agua fresca"
+              "name": "Agua fresca",
+              "description": "Fruit water of the day.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Mexican coke"
+              "name": "Mexican coke",
+              "description": "Bottle, cane sugar.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Margarita",
-              "description": "When the bar is open."
+              "description": "When the bar is open.",
+              "price": "$9",
+              "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -8837,16 +9393,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Local draft"
+              "name": "Local draft",
+              "description": "A pint from a nearby tap.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Domestic bottle"
+              "name": "Domestic bottle",
+              "description": "Cold bottle from the well-known list.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Well cocktail"
+              "name": "Well cocktail",
+              "description": "A standard mixed drink from the well.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House pour"
+              "name": "House pour",
+              "description": "Whiskey or well spirit, neat or on ice.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -8854,14 +9422,22 @@
           "heading": "Kitchen & extras",
           "items": [
             {
-              "name": "Wings or nachos"
+              "name": "Wings or nachos",
+              "description": "A basket of wings or nachos for the table.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or basket"
+              "name": "Burger or basket",
+              "description": "Burger or fried basket, depending on the kitchen.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Pool, darts, or live music",
-              "description": "When the room is running it."
+              "description": "When the room is running it.",
+              "price": "—",
+              "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -9198,16 +9774,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Local draft"
+              "name": "Local draft",
+              "description": "A pint from a nearby tap.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Domestic bottle"
+              "name": "Domestic bottle",
+              "description": "Cold bottle from the well-known list.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Well cocktail"
+              "name": "Well cocktail",
+              "description": "A standard mixed drink from the well.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House pour"
+              "name": "House pour",
+              "description": "Whiskey or well spirit, neat or on ice.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -9215,14 +9803,22 @@
           "heading": "Kitchen & extras",
           "items": [
             {
-              "name": "Wings or nachos"
+              "name": "Wings or nachos",
+              "description": "A basket of wings or nachos for the table.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or basket"
+              "name": "Burger or basket",
+              "description": "Burger or fried basket, depending on the kitchen.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Pool, darts, or live music",
-              "description": "When the room is running it."
+              "description": "When the room is running it.",
+              "price": "—",
+              "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -9382,16 +9978,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Local draft"
+              "name": "Local draft",
+              "description": "A pint from a nearby tap.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Domestic bottle"
+              "name": "Domestic bottle",
+              "description": "Cold bottle from the well-known list.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Well cocktail"
+              "name": "Well cocktail",
+              "description": "A standard mixed drink from the well.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House pour"
+              "name": "House pour",
+              "description": "Whiskey or well spirit, neat or on ice.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -9399,14 +10007,22 @@
           "heading": "Kitchen & extras",
           "items": [
             {
-              "name": "Wings or nachos"
+              "name": "Wings or nachos",
+              "description": "A basket of wings or nachos for the table.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or basket"
+              "name": "Burger or basket",
+              "description": "Burger or fried basket, depending on the kitchen.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Pool, darts, or live music",
-              "description": "When the room is running it."
+              "description": "When the room is running it.",
+              "price": "—",
+              "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -9836,19 +10452,34 @@
           "heading": "Meats",
           "items": [
             {
-              "name": "Brisket"
+              "name": "Brisket",
+              "description": "Sliced smoked brisket, by the plate.",
+              "price": "$18",
+              "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Ribs"
+              "name": "Ribs",
+              "description": "St. Louis-style, dry rub or sauce.",
+              "price": "$17",
+              "image": "https://images.unsplash.com/photo-1544025162-d76690232f06?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Pulled pork"
+              "name": "Pulled pork",
+              "description": "Chopped pork with pickles and sauce.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1544025162-d76690232f06?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Sausage"
+              "name": "Sausage",
+              "description": "Smoked link with mustard.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1544025162-d76690232f06?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chicken"
+              "name": "Chicken",
+              "description": "Quarter or half, from the pit.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -9856,16 +10487,28 @@
           "heading": "Sides",
           "items": [
             {
-              "name": "Beans"
+              "name": "Beans",
+              "description": "Pit beans, a little sweet, a little smoke.",
+              "price": "$4",
+              "image": "https://images.unsplash.com/photo-1544025162-d76690232f06?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Slaw"
+              "name": "Slaw",
+              "description": "Crisp cabbage slaw.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Potato salad"
+              "name": "Potato salad",
+              "description": "House potato salad.",
+              "price": "$4",
+              "image": "https://images.unsplash.com/photo-1518977676601-b2690ace2b1b?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Cornbread"
+              "name": "Cornbread",
+              "description": "Skillet cornbread, served warm.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -10123,16 +10766,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Local draft"
+              "name": "Local draft",
+              "description": "A pint from a nearby tap.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Domestic bottle"
+              "name": "Domestic bottle",
+              "description": "Cold bottle from the well-known list.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Well cocktail"
+              "name": "Well cocktail",
+              "description": "A standard mixed drink from the well.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House pour"
+              "name": "House pour",
+              "description": "Whiskey or well spirit, neat or on ice.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -10140,14 +10795,22 @@
           "heading": "Kitchen & extras",
           "items": [
             {
-              "name": "Wings or nachos"
+              "name": "Wings or nachos",
+              "description": "A basket of wings or nachos for the table.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or basket"
+              "name": "Burger or basket",
+              "description": "Burger or fried basket, depending on the kitchen.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Pool, darts, or live music",
-              "description": "When the room is running it."
+              "description": "When the room is running it.",
+              "price": "—",
+              "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -10227,13 +10890,21 @@
             {
               "name": "Fish and chips",
               "description": "Fried cod, the house order.",
-              "notes": "Seattle Magazine called this the one to get."
+              "notes": "Seattle Magazine called this the one to get.",
+              "price": "$18",
+              "image": "https://images.unsplash.com/photo-1579208030886-b937da5926b9?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Fish sandwich"
+              "name": "Fish sandwich",
+              "description": "Fried fish on a bun, tartar on the side.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1579208030886-b937da5926b9?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Seafood basket"
+              "name": "Seafood basket",
+              "description": "Fried seafood, fries, and coleslaw.",
+              "price": "$17",
+              "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -10241,13 +10912,22 @@
           "heading": "Also",
           "items": [
             {
-              "name": "Burger"
+              "name": "Burger",
+              "description": "Griddled beef patty, bun, and the usual toppings.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Breakfast"
+              "name": "Breakfast",
+              "description": "Eggs, potatoes, and toast.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Milkshake"
+              "name": "Milkshake",
+              "description": "Hand-spun, thick enough for a spoon.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -10786,13 +11466,22 @@
           "heading": "Cups & cones",
           "items": [
             {
-              "name": "Single scoop"
+              "name": "Single scoop",
+              "description": "One scoop in a cup or cake cone.",
+              "price": "$4",
+              "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6e31e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Double scoop"
+              "name": "Double scoop",
+              "description": "Two scoops. Mix flavors if you like.",
+              "price": "$6.50",
+              "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6e31e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Waffle cone"
+              "name": "Waffle cone",
+              "description": "Crisp cone upgrade.",
+              "price": "$1.50",
+              "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6e31e?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -10800,14 +11489,22 @@
           "heading": "Also",
           "items": [
             {
-              "name": "Sundae"
+              "name": "Sundae",
+              "description": "Scoops, sauce, and whipped cream.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6e31e?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Milkshake"
+              "name": "Milkshake",
+              "description": "Hand-spun, thick enough for a spoon.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Seasonal flavor",
-              "description": "When the board lists it."
+              "description": "When the board lists it.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6e31e?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -10886,13 +11583,21 @@
           "items": [
             {
               "name": "Chips and salsa",
-              "description": "Red, green, or both."
+              "description": "Red, green, or both.",
+              "price": "$5",
+              "image": "https://images.unsplash.com/photo-1604467707321-19767b28bd76?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Guacamole"
+              "name": "Guacamole",
+              "description": "Ripe avocado, lime, and onion. Made to order.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1582169296194-e4d644c48063?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Queso"
+              "name": "Queso",
+              "description": "Warm cheese dip for the chips.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -10900,19 +11605,34 @@
           "heading": "Plates",
           "items": [
             {
-              "name": "Tacos"
+              "name": "Tacos",
+              "description": "Street-style, two or three to an order.",
+              "price": "$11",
+              "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Enchiladas"
+              "name": "Enchiladas",
+              "description": "Rolled tortillas, chile sauce, and cheese.",
+              "price": "$14",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burrito plate"
+              "name": "Burrito plate",
+              "description": "A burrito plated with rice and beans.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chile relleno"
+              "name": "Chile relleno",
+              "description": "Roasted pepper, cheese, and ranchero sauce.",
+              "price": "$15",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Combination plate"
+              "name": "Combination plate",
+              "description": "A mix of house plates — tacos, enchilada, rice, and beans.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -10920,17 +11640,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Horchata"
+              "name": "Horchata",
+              "description": "Cinnamon rice drink, served cold.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Agua fresca"
+              "name": "Agua fresca",
+              "description": "Fruit water of the day.",
+              "price": "$3.50",
+              "image": "https://images.unsplash.com/photo-1513558161293-cdae8147b0b7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Mexican coke"
+              "name": "Mexican coke",
+              "description": "Bottle, cane sugar.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1629203851122-37035fdb8bd3?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Margarita",
-              "description": "When the bar is open."
+              "description": "When the bar is open.",
+              "price": "$9",
+              "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -11004,18 +11735,27 @@
           "items": [
             {
               "name": "Glazed",
-              "description": "The everyday dozen."
+              "description": "The everyday dozen.",
+              "price": "$2.25",
+              "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Chocolate iced"
+              "name": "Chocolate iced",
+              "description": "Cake donut finished with chocolate icing.",
+              "price": "$2.50",
+              "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Filled",
-              "description": "Cream or fruit, when posted."
+              "description": "Cream or fruit, when posted.",
+              "price": "$2.75",
+              "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Dozen box",
-              "description": "Mix and match."
+              "description": "Mix and match.",
+              "price": "$16",
+              "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -11023,14 +11763,22 @@
           "heading": "Also on the counter",
           "items": [
             {
-              "name": "Drip coffee"
+              "name": "Drip coffee",
+              "description": "House brew, served all day.",
+              "price": "$3",
+              "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Breakfast sandwich"
+              "name": "Breakfast sandwich",
+              "description": "Egg, cheese, and the day’s meat on a roll.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Kolache or savory bake",
-              "description": "When the kitchen runs it."
+              "description": "When the kitchen runs it.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }
@@ -11425,16 +12173,28 @@
           "heading": "Drinks",
           "items": [
             {
-              "name": "Local draft"
+              "name": "Local draft",
+              "description": "A pint from a nearby tap.",
+              "price": "$6",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Domestic bottle"
+              "name": "Domestic bottle",
+              "description": "Cold bottle from the well-known list.",
+              "price": "$4.50",
+              "image": "https://images.unsplash.com/photo-1535958636474-b021ee0b70f0?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Well cocktail"
+              "name": "Well cocktail",
+              "description": "A standard mixed drink from the well.",
+              "price": "$8",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "House pour"
+              "name": "House pour",
+              "description": "Whiskey or well spirit, neat or on ice.",
+              "price": "$7",
+              "image": "https://images.unsplash.com/photo-1514362545850-a2297d04c300?auto=format&fit=crop&w=800&q=80"
             }
           ]
         },
@@ -11442,14 +12202,22 @@
           "heading": "Kitchen & extras",
           "items": [
             {
-              "name": "Wings or nachos"
+              "name": "Wings or nachos",
+              "description": "A basket of wings or nachos for the table.",
+              "price": "$12",
+              "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
             },
             {
-              "name": "Burger or basket"
+              "name": "Burger or basket",
+              "description": "Burger or fried basket, depending on the kitchen.",
+              "price": "$13",
+              "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
             },
             {
               "name": "Pool, darts, or live music",
-              "description": "When the room is running it."
+              "description": "When the room is running it.",
+              "price": "—",
+              "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80"
             }
           ]
         }

@@ -56,6 +56,12 @@ describe("defaultOfferings", () => {
     expect(menu.sectionId).toBe("menu");
     expect(menu.sections.length).toBeGreaterThan(0);
     expect(menu.sections.some((group) => group.heading === "Plates")).toBe(true);
+    const taco = menu.sections
+      .flatMap((group) => group.items)
+      .find((entry) => entry.name === "Tacos");
+    expect(taco?.price).toBe("$11");
+    expect(taco?.image).toContain("unsplash");
+    expect(taco?.description).toMatch(/street-style/i);
   });
 
   it("builds a salon service menu", () => {

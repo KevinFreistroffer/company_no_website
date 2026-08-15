@@ -49,6 +49,7 @@ export type OfferItem = {
   description?: string;
   price?: string;
   notes?: string;
+  image?: string;
 };
 
 export type OfferSection = {

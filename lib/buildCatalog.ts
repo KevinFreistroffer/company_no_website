@@ -7,6 +7,7 @@ import {
   industryLabel,
   mergeOfferings,
 } from "@/lib/industry";
+import { completeFoodOfferings } from "@/lib/foodMenu";
 import {
   defaultTagline,
   templateForCategory,
@@ -101,8 +102,20 @@ export function rowToBusiness(row: CsvRow, enrichment?: Enrichment): Business {
     suggestedDomains: enrichment.suggestedDomains ?? base.suggestedDomains,
     paymentNotes: enrichment.paymentNotes ?? base.paymentNotes,
     established: enrichment.established ?? base.established,
-    offerings: mergeOfferings(offerings, enrichment.offerings),
+    offerings: attachOfferings(template, offerings, enrichment?.offerings),
   };
+}
+
+function attachOfferings(
+  template: ReturnType<typeof templateForCategory>,
+  defaults: Business["offerings"],
+  override: Enrichment["offerings"],
+): Business["offerings"] {
+  const merged = mergeOfferings(defaults, override);
+  if (template === "food") {
+    return completeFoodOfferings(merged);
+  }
+  return merged;
 }
 
 export function buildCatalog(
