@@ -1,0 +1,26 @@
+Subject: A simple website idea for {{business_name}}
+
+Hi {{owner_first_name}},
+
+My name is {{your_name}}. I help small local businesses that don’t have a website yet.
+
+I put together a sample site for {{business_name}} so you can see what it could look like:
+
+{{demo_url}}
+
+It’s just a sample — not live as your official site. The idea is a simple page customers can find: who you are, what you do, your address, and a tap-to-call button. Suggested web address: {{suggested_domain}}
+
+If you like it, I can put it on a real web address in your name for a one-time fee of $597. That includes:
+
+• The site, based on the sample (we can tweak hours, phone, and services)
+• Helping you get {{suggested_domain}} (or another name you prefer) in your name
+• 90 days of basic updates after it goes live — things like new hours, a new phone number, or a short text change
+
+After 90 days, updates are optional: $49 per small change, or $19/month if you’d rather have me handle basic text updates as they come up. You would own the web address. Hosting for the first year is included.
+
+No pressure at all. If you’re not interested, that’s completely fine — you can ignore this note. If you want to look at the sample and tell me what you’d change, I’m happy to talk.
+
+Thanks for your time,
+{{your_name}}
+{{your_phone}}
+{{your_email}}
